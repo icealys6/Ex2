@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+    <title>Golf Score Card</title>
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="Golf.css">
+    <script type="text/javascript" src="golf.js"></script>
+</head>
+<body>
+<div class="container">
+    <header>
+        <h1>HW01 - Golf Scorecard</h1>
+    </header>
+    <form id="scoreform">
+        <div id="top_controls" class="controls"></div>
+        <table id="scoreCard"></table>
+        <div id="bottom_controls" class="controls"></div>
+    </form>
+    <div class="key">
+        <ul>
+            <li>Inputs that turn <span>blue</span> mean their entered scores were found to be above the "Par" rule. On
+                holes that are Par 3 or 4 that are higher than 7 are adjusted to 7. Par 5 holes are adjusted to a
+                maximum of 8.
+            </li>
+            <li>Inputs outlined in green will show calculated totals.</li>
+        </ul>
+    </div>
+    <footer>
+        <p>
+            <small>COP4656 - Thomas Morton</small>
+        </p>
+    </footer>
+</div>
+</body>
+</html>

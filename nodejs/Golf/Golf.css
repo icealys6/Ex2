@@ -1,0 +1,114 @@
+body{
+	background: #fff;
+	font-family:sans-serif;
+}
+
+.container{
+	min-height:90vh;
+	margin:0 auto;
+}
+
+header{
+	border-bottom:1px solid #ddd;
+	margin-bottom:20px;
+}
+
+footer{
+	border-top: 1px solid #ddd;
+	margin-top:20px;
+}
+
+input[type="number"] {
+	width: 100%;
+	border: 1px solid #ddd;
+	padding: 2px;
+}
+
+input.numb.fixed {
+	border:1px solid #67c6e6;
+	background: #dbfff7;
+}
+
+input:disabled{
+	border:1px solid green;
+}
+
+.controls{
+	display:block;
+	clear:both;
+}
+
+.controls .col {
+	float:right;
+	padding:7px 20px;
+	text-align:right;
+}
+
+.controls input[type=button],
+.controls input[type=submit]{
+	padding:5px 10px;
+	font-size: 1em;
+	border-radius:6px;
+	background:transparent;
+	cursor: pointer;
+}
+
+.controls input[type=button] {
+	border:1px solid #337ab7;
+	color:#337ab7;
+}
+
+.controls input[type=button]:hover{
+	background:#337ab7;
+	color:#fff;
+}
+
+.controls input[type=submit]{
+	border:1px solid #5cb85c;
+	color:#5cb85c;
+}
+
+.controls input[type=submit]:hover{
+	background:#5cb85c;
+	color:#fff;
+}
+
+
+.key{
+	width:50%;
+	line-height:1.5;
+	font-size:90%;
+}
+
+.key ul li{
+	padding-bottom:5px;
+}
+
+/*Table Styling*/
+
+table{
+	margin:0 auto;
+	border:1px solid #ddd;
+	clear:both;
+	border-collapse:collapse
+}
+
+table tr td{
+	padding:10px;
+}
+
+
+tr.green td{
+	background:lightgreen;
+	border-right:1px solid darkolivegreen;
+}
+
+tr.blue td{
+	background:lightblue;
+	border-right:1px solid blue;
+}
+
+tr.grey td{
+	background:lightgrey;
+	border-right:1px solid dimgrey;
+}
